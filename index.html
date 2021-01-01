@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Configuración -->
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width = device-width, initial-scale = 1"/>
+  <title>Free Code Camp - Portfolio Page</title>
+
+  <!-- Archivos Externos -->
+  <link rel="stylesheet" href="./estilos.css"/>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" defer></script>
+
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+
+    <!-- BARRA DE NAVEGACIÓN -->
+    <nav id="navbar">
+      <div class="areaActiva">
+        <ul class="menuNavegacion">
+          <li><a href="#welcome-section">About</a></li>
+          <li><a href="#projects">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+      <!-- SECCIÓN: HERO -->
+      <section id="welcome-section">
+        <h1 class="tituloHero">Hey, I am Mimic</h1>
+        <h3 class="descripcionHero">a web developer</h3>
+      </section>
+
+
+  </header>
+
+  <!-- CONTENIDO PÁGINA -->
+  <main>
+
+    <!-- SECCIÓN PROYECTOS -->
+    <section id="projects">
+      <div class="areaActiva">
+
+        <!-- Título Sección Proyectos -->
+        <h2 class="tituloSeccion">Some of my projects</h2>
+
+        <!-- Galería Proyectos -->
+        <div class="galeriaProyectos">
+
+          <!-- Tarjeta Proyecto 1: Tribute Page -->
+          <div class="project-tile">
+            <a target="_blank" href="https://codepen.io/cristianbg71/full/MWeYqgK">
+
+              <!-- Cuerpo Tarjeta: Imagen -->
+              <figure class="imagenProyecto">
+                <img
+                src="./imagenes/tributePage.png" 
+                alt="Tribute Page Screenshot"/>
+              </figure>
+
+              <!-- Pie Tarjeta: Título Proyecto -->
+              <div class="pieTarjeta">
+                <p>
+                  <span class="decoracionCodigo">&lt;</span>
+                  <span class="tituloProyecto">Tribute Page</span>
+                  <span class="decoracionCodigo">&#47;&gt;</span>
+                </p>
+              </div>
+
+            </a>
+          </div>
+          <!-- Fin Tarjeta Proyecto -->
+
+          <!-- Tarjeta Proyecto 2: Survey Form -->
+          <div class="project-tile">
+            <a target="_blank" href="https://codepen.io/cristianbg71/full/jOrqLxd">
+
+              <!-- Cuerpo Tarjeta: Imagen -->
+              <figure class="imagenProyecto">
+                <img 
+                src="./imagenes/surveyForm.png" 
+                alt="Survey Form Screenshot"/>
+              </figure>
+
+              <!-- Pie Tarjeta: Título Proyecto -->
+              <div class="pieTarjeta">
+                <p>
+                  <span class="decoracionCodigo">&lt;</span>
+                  <span class="tituloProyecto">Survey Form</span>
+                  <span class="decoracionCodigo">&#47;&gt;</span>
+                </p>
+              </div>
+
+            </a>
+          </div>
+          <!-- Fin Tarjeta Proyecto -->
+
+          <!-- Tarjeta Proyecto 3: Technical Documentation Page -->
+          <div class="project-tile">
+            <a target="_blank" href="https://codepen.io/cristianbg71/full/MWeJxEw">
+
+              <!-- Cuerpo Tarjeta: Imagen -->
+              <figure class="imagenProyecto">
+                <img 
+                src="./imagenes/technicalDocumentationPage.png" 
+                alt="Technical Documentation Page Screenshot"/>
+              </figure>
+
+              <!-- Pie Tarjeta: Título Proyecto -->
+              <div class="pieTarjeta">
+                <p>
+                  <span class="decoracionCodigo">&lt;</span>
+                  <span class="tituloProyecto">Technical Documentation Page</span>
+                  <span class="decoracionCodigo">&#47;&gt;</span>
+                </p>
+              </div>
+
+            </a>
+          </div>
+          <!-- Fin Tarjeta Proyecto -->
+
+          <!-- Tarjeta Proyecto 4: Product Landing Page -->
+          <div class="project-tile">
+            <a target="_blank" href="https://codepen.io/cristianbg71/full/MWebPZN">
+
+              <!-- Cuerpo Tarjeta: Imagen -->
+              <figure class="imagenProyecto">
+                <img 
+                src="./imagenes/productLandingPage.png" 
+                alt="Product Landing Page Screenshot"/>
+              </figure>
+
+              <!-- Pie Tarjeta: Título Proyecto -->
+              <div class="pieTarjeta">
+                <p>
+                  <span class="decoracionCodigo">&lt;</span>
+                  <span class="tituloProyecto">Product Landing Page</span>
+                  <span class="decoracionCodigo">&#47;&gt;</span>
+                </p>
+              </div>
+
+            </a>
+          </div>
+          <!-- Fin Tarjeta Proyecto -->
+
+        </div>
+
+        <!-- Botón: Ver Totalidad Galería -->
+        <div class="botonesGaleria">
+          <a class="boton" target="_blank" href="https://codepen.io/cristianbg71">
+            Show all
+            <i class="decoracionEnlace fas fa-chevron-right"></i>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECCIÓN: CONTACTO -->
+    <section id="contact">
+
+      <!-- Encabezado Sección Contacto: Título, Subtítulo -->
+        <div class="encabezadoContacto">
+          <h2 class="tituoSeccion">Let's work together</h2>
+          <p class="subtituloSeccion">May I invite you to a coffee?</p>
+        </div>
+
+        <!-- Cuerpo Sección Contacto: Enlaces Contacto -->
+        <div class="enlacesContacto">
+
+          <!-- Enlace Contacto 1: Facebook -->
+          <a class="boton" target="_blank" href="https://facebook.com/freecodecamp">
+            <i class="decoracionEnlace fab fa-facebook-square"></i> 
+            <span class="nombreContacto">Facebook</span>
+          </a>
+
+          <!-- Enlace Contacto 2: GitHub -->
+          <a id="profile-link" class="boton" target="_blank" href="https://github.com/desarrollowebestudio">
+            <i class="decoracionEnlace fab fa-github"></i> 
+            <span class="nombreContacto">GitHub</span>
+          </a>
+
+          <!-- Enlace Contacto 3: Twitter -->
+          <a class="boton" target="_blank" href="https://twitter.com/freecodecamp">
+            <i class="decoracionEnlace fab fa-twitter"></i> 
+            <span class="nombreContacto">Twitter</span>
+          </a>
+
+          <!-- Enlace Contacto 4: E-mail -->
+          <a class="boton" href="mailto:example@example.com">
+            <i class="decoracionEnlace fas fa-at"></i> 
+            <span class="nombreContacto">Email</span>
+          </a>
+
+          <!-- Enlace Contacto 5: Teléfono -->
+          <a class="boton" href="tel:555-555-5555">
+            <i class="decoracionEnlace fas fa-mobile-alt"></i> 
+            <span class="nombreContacto">Call me</span>
+          </a>
+
+        </div>
+    </section>
+  </main>
+  
+  <!-- PIE DE PÁGINA -->
+  <footer id="footerPagina">
+    <div class="areaActiva">
+      <div class="contenidoFooter">
+
+        <!-- Párrafo Disclaimer -->
+        <p>This is a fake portfolio. The projects and contact details given are not real.</p>
+
+        <!-- Párrafo Copyright -->
+        <p>
+          <span class="textoCopyright">&copy; Created for</span>
+          <a target="_blank" href="https://www.freecodecamp.com/">
+            freeCodeCamp <i class="fab fa-free-code-camp"></i>
+          </a>
+        </p>
+
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
